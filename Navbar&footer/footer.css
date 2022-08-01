@@ -1,0 +1,95 @@
+
+#footerBackground {
+    background-color: #212121;
+    padding-bottom: 30px;
+}
+body {
+    margin: 0;
+}
+#footerBackground > div {
+    width: 90%;
+    margin: auto;
+}
+#footer{
+    /* border: 1px solid pink; */
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    
+}
+#footer > div {
+    /* border: 1px solid red; */
+    text-align: center;
+}
+#footer>div>h5{
+    padding-bottom: 20px;
+    color: white;
+}
+#footer>div>p{
+    color: gray;
+    font-size: 13px;
+}
+#footer>div>p:hover{
+    color: white;
+    cursor: pointer;
+}
+
+#footer + div + div {
+    /* border: 1px solid red; */
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:25%;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#lastPart {
+    display: flex;
+    /* border: 1px solid red; */
+    color: white;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#lastPart > div:first-child {
+    align-items: center;
+}
+#lastPart > div > div {
+    margin-right: 10px;
+}
+#lastPart > div:first-child img {
+    width: 30px;
+}
+#lastPart > div:first-child p {
+    font-size: 12px;
+}
+#lastPart > div:nth-child(2) p {
+    font-size: 12px;
+}
+#lastPart > div {
+    display: flex;
+}
+#lastPart > div:last-child img {
+    width: 20px;
+}
+#lastPart > div:last-child {
+    align-items: center;
+}
+#lastPart > div > div p:hover {
+    cursor: pointer;
+}
+#lastPart > div > div img:hover {
+    cursor: pointer;
+}
+hr {
+    height: 0.5px;
+    background-color: gray;
+    border:none;
+}
+
+
+
