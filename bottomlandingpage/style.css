@@ -312,4 +312,6 @@ color: white;
     background: linear-gradient(120deg,#ec028a,#f15924);
     color: white;
     font-weight: bold;
+    border: none;
+    border-radius: 3px;
 }
