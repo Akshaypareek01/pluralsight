@@ -1,0 +1,180 @@
+body{
+    margin:0px;
+    background-color: #242424;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1,h2,h3,h4,p,span{
+    color:white;
+}
+#plans-div-1{
+    text-align: center;
+   
+}
+#plans-div-1>h2{
+    font-size:40px;
+}
+.Plans_pricing {
+    width:70%;
+   margin:30px auto;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    
+    
+}
+.p1{
+    margin-top:10px;
+}
+.p2{
+    margin:40px auto;
+    width:60%;
+}
+.plans1-2-p2{
+    margin:50px auto;
+    width:60%;
+}
+.p3{
+    margin:40px auto;
+}
+#plans1-2 h2{
+    margin-top: 110px;
+}
+.Plans_pricing div{
+    
+    width:100%;
+    height:100%;
+    margin:auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.price{
+    margin-bottom: 0px;
+    font-weight:bolder;
+}
+.Plans_pricing h2{
+    margin-top: 80px;
+   
+    font-size:36px;
+  }
+.highlight{
+    color:#E40084;
+    font-weight: bold;
+  }
+#yl{
+    background-color: #F7A614;
+    color:black;
+    font-weight: bold;
+    margin-top:0px;
+}
+#btn-1{
+    background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+    border: 0;
+    
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    
+    font-size: 16px;
+    
+    font-weight: bold;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 5px 70px;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    margin-bottom: 30px;
+  }
+  
+  
+  #btn-1:hover {
+      background-position: right center;
+      background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+      /* change the direction of the change here */
+      color: #fff;
+      border-radius:5px;
+      text-decoration: none;
+  }
+  #btn-1:active {
+      transform: scale(0.95);
+    }
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 27px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #242424;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  #plans-div-1 span{
+    padding: 10px;
+    font-weight: bold;
+  }
+  #preminum-span{
+   
+    color:black;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 12px;
+  }
+  #preminum-span2{
+    color:gray;
+    font-weight: bold;
+    font-size: 15px;
+    font-style: italic;
+    text-decoration: line-through;
+  }
+ 
