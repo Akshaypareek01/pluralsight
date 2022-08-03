@@ -69,3 +69,6 @@ button{
   background: linear-gradient(to right,#F05A28,#EC008C,#F05A28);
   color: white;
 } 
+.submit:hover {
+  cursor: pointer;
+}

@@ -1,5 +1,5 @@
 document.querySelector("form").addEventListener("submit", addcrd);
-var arr=[];
+var arr = JSON.parse(localStorage.getItem("login")) || [];
 function addcrd(){
     event.preventDefault();
     var name=document.querySelector("#name").value;
@@ -7,9 +7,9 @@ function addcrd(){
    
     var password=document.querySelector("#password").value;
     var Contactnumber=document.querySelector("#Contactnumber").value;
-    console.log(name, email, password, Contactnumber);
 
     var ob= {name: name, email: email,password: password, Contactnumber: Contactnumber};
     arr.push(ob)
-    localStorage.setItem("login",JSON.stringify(arr))
+    localStorage.setItem("login",JSON.stringify(arr));
+    window.location.href="signin.html";
 }

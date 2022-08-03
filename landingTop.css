@@ -207,6 +207,26 @@ a {
     margin-bottom: 15px;
 }
 
+#signinBackground {
+    position: fixed;
+    border: 1px solid blue;
+    height: 200px;
+    display: none;
+}
+#signindiv {
+    border: 1px solid red;
+    position: absolute;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+#signindiv > div {
+    border: 1px solid yellow;
+}
+/* #signindiv img {
+    width: 100%;
+} */
 
 
 
