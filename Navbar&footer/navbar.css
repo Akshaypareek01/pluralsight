@@ -49,9 +49,10 @@
     border-radius: 2px;
     justify-content: center;
     margin-right: -30px;
+    box-sizing: border-box;
 }
 #navbar > div:last-child > div:last-child:hover {
-    border: 2px solid white;
+    border: 1.5px solid white;
     cursor: pointer;
 }
 #navbar > div > div:first-child {

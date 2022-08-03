@@ -101,7 +101,6 @@ button{
     background: linear-gradient(to right,#F05A28,#EC008C,#F05A28);
     color: white;
 
-
 } 
 .img{
   height:25px;
@@ -113,7 +112,11 @@ button{
 }
 #account {
     text-align: center;
+    background: none;
     background-color: #222222;
+    margin: auto;
+    width: 100%;
     border: none;
     border-radius: 3px;
+    cursor: pointer;
 }

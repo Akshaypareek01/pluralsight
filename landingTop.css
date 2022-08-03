@@ -15,6 +15,14 @@ body {
     height: 85vh;
     display: none;
 }
+#cross1 {
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    left: 97%;
+    top: 1%;
+    z-index: 10;
+}
 a {
     color: white;
     text-decoration: none;
@@ -122,10 +130,18 @@ a {
 #productsBackground {
     position: fixed;
     /* border: 1px solid blue; */
-    width: 225vh;
+    width: 100vw;
     height: 85vh;
     background-color: rgba(0, 0, 0, 0.788);
     display: none;
+}
+#cross2 {
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    left: 70%;
+    top: 1%;
+    z-index: 10;
 }
 #productsdiv {
     /* border: 1px solid red; */
@@ -169,8 +185,16 @@ a {
     background-color: rgba(0, 0, 0, 0.833);
     height: 85vh;
     position: fixed;
-    width: 220vh;
+    width: 100vw;
     display: none;
+}
+#cross3 {
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    left: 70%;
+    top: 1%;
+    z-index: 10;
 }
 #resourcesdiv {
     /* border: 1px solid red; */
@@ -207,26 +231,61 @@ a {
     margin-bottom: 15px;
 }
 
+
+
+
 #signinBackground {
     position: fixed;
-    border: 1px solid blue;
-    height: 200px;
+    /* border: 1px solid blue; */
+    background-color: rgba(0, 0, 0, 0.833);
+    width: 100vw;
+    height: 700px;
     display: none;
 }
 #signindiv {
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    background-color: rgb(12, 11, 11);
     position: absolute;
+    left: 60%;;
+    width: 22%;
+    height: 100px;
     color: white;
     display: grid;
+    gap: 20px;
     grid-template-columns: repeat(2,1fr);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
 
 }
-#signindiv > div {
-    border: 1px solid yellow;
+#signindiv h6 {
+    font-size: 12px;
+    color: gray;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
 }
-/* #signindiv img {
+.arrow1 {
+    font-size: 20px;
+    color:#c60073
+}
+#signindiv > div:hover {
+    cursor: pointer;
+}
+#signindiv img {
     width: 100%;
-} */
+}
+#signindiv > div > div:last-child {
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+}
+#cross {
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    left: 83.5%;
+    top: 1%;
+    z-index: 10;
+}
 
 
 

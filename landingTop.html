@@ -20,11 +20,12 @@
         </div>
         <div>
             <div><i class="fas fa-search"></i></div>
-            <div>Sign <i class="fa fa-angle-down" aria-hidden="true"></i></div>
+            <div id="signin">Sign <i class="fa fa-angle-down" aria-hidden="true"></i></div>
             <div>TRY FOR FREE</div>
         </div>
     </div>
     <div id="platformBackground">
+        <div id="cross1"><i onclick="crossFn()" class="fa-solid fa-xmark"></i></div>
         <div id="platformdiv">
             <div>
                 <div>
@@ -96,6 +97,7 @@
         </div>
     </div>
     <div id="productsBackground">
+        <div id="cross2"><i onclick="crossFn()" class="fa-solid fa-xmark"></i></div>
         <div id="productsdiv">
             <div>
                 <div>
@@ -120,6 +122,7 @@
         </div>
     </div>
     <div id="resourcesBackground">
+        <div id="cross3"><i onclick="crossFn()" class="fa-solid fa-xmark"></i></div>
         <div id="resourcesdiv">
             <div>
                 <div><h6>LEARN</h6></div>
@@ -142,19 +145,20 @@
         </div>
     </div>
     <div id="signinBackground">
+        <div id="cross"><i onclick="crossFn()" class="fa-solid fa-xmark"></i></div>
         <div id="signindiv">
-            <div>
+            <div onclick="displaysigninPage()">
                 <div><h6>SIGN IN WITH</h6></div>
                 <div>
                     <div><img src="https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/Skill_logo_white.png" alt="skilllogo"></div>
-                    <div><span class="arrow"> ></span></div>
+                    <div><span class="arrow1"> ></span></div>
                 </div>
             </div>
-            <div>
+            <div onclick="displaysigninPage()">
                 <div><h6>SIGN IN WITH</h6></div>
                 <div>
                     <div><img src="https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/Flow_Logo_white.png" alt="flowlogo"></div>
-                    <div><span class="arrow"> ></span></div>
+                    <div><span class="arrow1"> ></span></div>
                 </div>
             </div>
         </div>

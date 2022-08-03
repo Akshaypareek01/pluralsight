@@ -16,17 +16,18 @@
     <div id="contain">
         <div class="box">
             <img src="https://app.pluralsight.com/id/img/login-logo.png"><br>
-            <form submit="signin">
+            <form>
                 Email or Username<br>
                 <input type="email" id="email" /><br>
                 Password<br>
                 <input type="password" id="password" /><br>
-                <input class="submit" type="submit" value="Sign In">
+                <input class="submit" onclick="addcrd()" type="submit" value="Sign In">
                 <p class="p1">Forgot password ?</p>
                 <p class="p1">Sign in with Company or School</p>
                 <hr>
                 <!-- <a href="signup.html">Create an account</a> -->
-                <input id="account" type="text" value="Create an Account">
+                <!-- <input  type="text" value="Create an Account"> -->
+                <button id="account">Create an Account</button>
                 <p class="p2">Copyright © 2004 - 2022 Pluralsight LLC. All rights reserved.</p>
                 <p class="p3">Term of use | Privacy Policy </p>
 
@@ -38,7 +39,6 @@
             <img class="img" src="https://www.pluralsight.com/content/dam/pluralsight2/logos/logo-build-better.png">
         </div>
     </div>
-    <script src="signin.js"></script>
 </body>
-
 </html>
+<script src="signin.js"></script>
