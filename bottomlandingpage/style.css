@@ -257,7 +257,7 @@ color: white;
     background-color: aqua;
     height: 550px;
     width: 100%;
-    background-image: url(./images/african-girls-1.jpeg);
+    background-image: url(./images/african-girls-original.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -268,9 +268,11 @@ color: white;
 #parent5 div h1{
     width: 27%;
     font-size: 35px;
+    color: white;
 }
 #parent5 div p{
     width: 40%;
+    color: white;
 }
 #parent5 div button{
     background-color: rgb(3, 7, 8);
@@ -312,6 +314,4 @@ color: white;
     background: linear-gradient(120deg,#ec028a,#f15924);
     color: white;
     font-weight: bold;
-    border: none;
-    border-radius: 3px;
 }
