@@ -1,0 +1,101 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+}
+#parent-card-1{
+    background-image: url(./bottomcardsimages/background-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;    
+}
+#parent-card-1 h1{
+    font-size: 55px;
+    width: 45%;
+    padding: 120px 50px 20px 150px;
+}
+#parent-card-1 p{
+    width: 41%;
+    padding: 10px 50px 50px 150px;
+    
+}
+#parent-card-2{
+    background-color: rgb(54, 54, 54);
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    padding-bottom: 100px;
+    
+}
+#child-card-2  div form{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+    color: black;
+    box-sizing: border-box;
+    width: 50%;
+    margin: auto;
+    padding: 20px 10px 20px 35px;
+    margin-top: 30px;
+}
+#child-card-1 p{
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 30px;
+    padding: 0px 50px 0px 170px;
+}
+#child-card-1{
+    margin-top: 20px;
+}
+#child-card-1  div > p{
+    padding: 0px 50px 0px 180px;
+
+}
+#child-card-2 form div > p{
+    color: rgb(85, 85, 85);
+    font-size: larger;
+    padding-left: 3px;
+    margin-bottom: 35px;
+}
+input,select[name="Country"]{
+    border-color: rgb(236, 6, 143);
+    border: 1px thin;
+    padding: 10px;
+    padding-right: 130px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 3px;
+    box-sizing: border-box;
+}
+select[name="Country"]{
+padding-right: 230px;
+box-sizing: border-box;
+border-color: rgb(236, 6, 143);
+ border: px thin;
+}
+form > p{
+    width: 90%;
+    font-size: small;
+}
+form > p a
+{
+    color: rgb(236, 6, 143);
+    text-decoration: none;
+}
+form > p a:hover{
+    text-decoration: underline;
+}
+form input[type="submit"]{
+    background-color: rgb(236, 0, 140);
+    text-align: center;
+    padding: 15px 45px;
+   letter-spacing: 1px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#child-card-2{
+    margin-top: 20px;
+}
