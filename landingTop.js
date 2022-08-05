@@ -102,6 +102,5 @@ function displaysignin() {
 }
 
 function displaysigninPage() {
-    console.log(23);
     location.href="./signin&signuppage/signin.html";
 }
