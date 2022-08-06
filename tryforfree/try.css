@@ -246,8 +246,10 @@ margin: 40px auto;
 
 
 .trydiv_1 {
-    border: 1px solid red;
-    background-image: url("");
+    /* border: 1px solid red; */
+    background-image: url("https://www.pluralsight.com/content/pluralsight/en/pricing/free-trial/jcr:content/main/generic_block/image-res.img.bc77ef0b-8dc4-4bed-9f9a-a96245769de4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     color: white;
     text-align: center;
     padding: 80px 0;

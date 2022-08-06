@@ -347,3 +347,26 @@ keyword.addEventListener("keypress", function (event) {
     }
 
 })
+
+
+// function check(input,value) {
+
+//     var checkboxes = document.getElementsByClassName("radioCheck");
+//     for(var i=0; i<checkboxes.length; i++) {
+//         if(checkboxes[i] == true) {
+//             checkboxes[i].addEventListener("click",function(){
+//                 console.log(34);
+//                 ways(value)
+//             });
+//         } 
+        
+//     }
+
+//     for (var i = 0; i < checkboxes.length; i++) {
+//         if (checkboxes[i].checked === true) {
+//             checkboxes[i].checked = false;
+//         }
+//     }
+//     input.checked = true;
+    
+// }

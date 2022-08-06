@@ -144,6 +144,9 @@ body {
     /* height: 30vh; */
     padding: 20px;
 }
+.coursediv:hover {
+    cursor: pointer;
+}
 .coursediv h3{
     margin-bottom: 5px;
 }
