@@ -16,7 +16,7 @@
         </div>
 
         <div id="child-check6">
-            <a href="#"><h6> < Back to prioing</h6></a>
+            <a href="#"><h6> < Back to pricing</h6></a>
         </div>
 
         <div id="preparent-check1">
@@ -29,7 +29,7 @@
                             <h2>Account details</h2>
                         </div>
             <div id="subchild-check2">
-              <p>Already have an account? <a href="#">Sign in</a></p>
+              <p>Already have an account? <a href="../signin&signuppage/signin.html">Sign in</a></p>
             </div>
 
             </div>
@@ -85,7 +85,7 @@
                          </div>
                         </div>
                         <div>
-                            <input type="submit" value="Continue">
+                            <input onclick="displaypaymentmode()" value="Continue">
                         </div>
                 </div>
             </form>
@@ -119,15 +119,15 @@
                                     <h5>SUBTOTAL</h5>
                                 </div>
                                 <div>
-                                    <h5>&#x20B9;0</h5>
+                                    <h5>&#x20B9; <span id="course_price"> 0</span></h5>
                                 </div>
                             </div>
                             <div>
                                 <div>
-                                    <h5>ESTIMATED TAX</h5>
+                                    <h5>ESTIMATED TAX (18%)</h5>
                                 </div>
                                 <div>
-                                    <h5>&#x20B9;0</h5>
+                                    <h5>&#x20B9; <span id="tax"> 0</span></h5>
                                 </div>
                             </div>
           </div>
@@ -140,7 +140,7 @@
                 <h3>Total due today</h3>
                </div>
               <div>
-                <h5>&#x20B9;0</h5>
+                <h5>&#x20B9; <span id="coursetotal_price"> 0</span></h5>
               </div>
         </div>
         <div>

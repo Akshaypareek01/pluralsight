@@ -90,8 +90,38 @@ body {
     background-color: black;
 }
 .button_sorted {
-    width: 100%;
+    width: 90%;
     /* border: 1px solid red; */
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px 20px 20px 30px;
+}
+.button_sorted > div:first-child input{
+    color: white;
+}
+.button_sorted > div{
+    /* border: 1px solid orange; */
+    padding: 20px;
+}
+.headingways {
+    padding: 10px 0;
+    border-bottom: 1px solid gray;
+}
+.headingways + div {
+    height: fit-content;
+    transition: height 0.3s ease-in-out;
+}
+.animation {
+    height: 0px;
+    background-color: red;
+    color: white;
+}
+.headingways + div input {
+    margin: 10px 5px 10px 0;
+
+}
+.button_sorted > div > div{
+    /* border: 1px solid yellow; */
 }
 .content_course {
     width: 65vw;

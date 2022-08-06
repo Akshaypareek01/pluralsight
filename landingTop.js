@@ -155,3 +155,19 @@ function displayflowfromtryforfree() {
 function displaysigninPagefromtryforfree() {
     location.href="../signin&signuppage/signin.html";
 }
+
+function displaytryforfreefromhomepage() {
+    location.href="./tryforfree/tryforfree.html"
+}
+
+function displaytryforfreefromcourses() {
+    location.href="../tryforfree/tryforfree.html"
+}
+
+function displaytryforfreefromskills() {
+    location.href="../tryforfree/tryforfree.html"
+}
+
+function displaytryforfreefromflow() {
+    location.href="../tryforfree/tryforfree.html"
+}

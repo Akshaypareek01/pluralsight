@@ -188,6 +188,9 @@ margin: 40px auto;
     font: bold;
 
 }
+.ques-container h3 {
+    margin-top: 30px;
+}
 .content {
     color: white;
     padding-left: 50px;

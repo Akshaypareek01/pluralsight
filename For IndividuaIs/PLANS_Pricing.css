@@ -1,12 +1,13 @@
 body{
     margin:0px;
-    background-color: #242424;
+    background-color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 h1,h2,h3,h4,p,span{
     color:white;
 }
 #plans-div-1{
+  padding-top: 60px;
     text-align: center;
    
 }
@@ -34,6 +35,10 @@ h1,h2,h3,h4,p,span{
 }
 .p3{
     margin:40px auto;
+}
+#plans1-2, #plans1-3 {
+  background: rgb(36,36,36);
+  background: linear-gradient(0deg, rgba(36,36,36,1) 50%, rgba(0,0,0,1) 100%);
 }
 #plans1-2 h2{
     margin-top: 110px;
@@ -68,7 +73,7 @@ h1,h2,h3,h4,p,span{
 #btn-1{
     background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
     border: 0;
-    
+    /* margin-top: 50px; */
     color: #FFFFFF;
     cursor: pointer;
     display: inline-block;

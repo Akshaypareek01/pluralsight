@@ -23,7 +23,7 @@
         <div>
             <div><i class="fas fa-search"></i></div>
             <div id="signin">SigIn <i class="fa fa-angle-down" aria-hidden="true"></i></div>
-            <div>TRY FOR FREE</div>
+            <div onclick="displaytryforfreefromcourses()">TRY FOR FREE</div>
         </div>
     </div>
     <div id="platformBackground">
@@ -174,13 +174,14 @@
         <div><h2>Search</h2></div>
         <div class="search_box">
             <div>
-                <div><input type="text" placeholder="Search"></div>
+                <div><input type="text" placeholder="Search" id="search"></div>
                 <div id="cross_search"><i class="fa-solid fa-xmark"></i></div>
                 <div id="search_search"><i class="fas fa-search"></i></div>
             </div>
             <div>
                 <select name="" id="selectSort" onchange="sortbyFn()">
                     <option value="Sort By" >Sort By <> </option>
+                    <option value="Price">Price</option>
                     <option value="Highest Rated">Higest Rated</option>
                     <option value="Course A to Z">Course A to Z</option>
                     <option value="Course Z to A">Course Z to A</option>
@@ -190,6 +191,23 @@
     </div>
     <div class="course_div">
         <div class="button_sorted">
+            <div>
+                <div class="headingways"> <h2>Ways to learn</h2></div>
+                <div>
+                    <input onchange="ways('All')"type="radio" name="courses" id="" value="All"><span>All</span><br>
+                    <input onchange="ways('Core Courses')"type="radio" name="courses" id="" value="Core Courses"><span>Core Courses</span><br>
+                    <input onchange="ways('Expanded')"type="radio" name="courses" id="" value="Expanded"><span>Expanded Courses</span><br>
+                    <input onchange="ways('Labs')"type="radio" name="courses" id="" value="Labs"><span>Labs</span><br>
+                </div>
+            </div>
+            <div>
+                <div class="headingways"><h2>Skill level</h2></div>
+                <div>
+                    <input onclick="ways('Advanced')"type="checkbox" name="course" id="" value="Advanced"><span>Advanced</span><br>
+                    <input onclick="ways('Beginner')"type="checkbox" name="course1" id="" value="Beginner"><span>Beginner</span><br>
+                    <input onclick="ways('Intermediate')"type="checkbox" name="course2" id="" value="Intermediate"><span>Intermediate</span><br>
+                </div>
+            </div>
         </div>
         <div class="content_course"></div>
     </div>

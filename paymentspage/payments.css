@@ -67,6 +67,7 @@ body{
     padding: 10px;
     padding-right: 85px ;
     border-radius: 3px;
+    margin-right: 10px;
     border: none;
     box-sizing: border-box;
 }
@@ -192,4 +193,7 @@ body{
     text-align: center;
     color: white;
     letter-spacing: 2px;
+}
+a {
+    color: rgb(0, 132, 189);
 }
