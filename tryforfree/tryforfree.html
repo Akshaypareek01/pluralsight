@@ -5,15 +5,253 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pluralsight</title>    
+    <link rel="stylesheet" href="../landingTop.css">
+    <link rel="stylesheet" href="try.css"><link rel="stylesheet" href="../Navbar&footer/navbar.css">
+    <link rel="stylesheet" href="../range/range.css">
     <script src="https://kit.fontawesome.com/31a001b9f7.js" crossorigin="anonymous"></script>   
     </head>
-    <link rel="stylesheet" href="try.css">
+    
 <body>
-    <div class="image"> 
+    <div id="navbar">
+        <div>
+            <div><img src="https://www.pluralsight.com/etc.clientlibs/pluralsight/clientlibs/clientlib-main/resources/images/global/header/PS_logo.png" alt="pluralsightlogo"></div>
+            <div id="platform">Platform <i class="fa fa-angle-down" aria-hidden="true"></i></div>
+            <div id="products">Products <i class="fa fa-angle-down" aria-hidden="true"></i></div>
+            <div id="resources">Resourses <i class="fa fa-angle-down" aria-hidden="true"></i></div>
+            <div>For Individuals</div>
+        </div>
+        <div>
+            <div><i class="fas fa-search"></i></div>
+            <div id="signin">SigIn <i class="fa fa-angle-down" aria-hidden="true"></i></div>
+            <!-- <div>TRY FOR FREE</div> -->
+        </div>
     </div>
-        <h4>TRY PLURALSIGHT SKILLS FOR FREE</h4>
-        <h1>Build your career, one skill at a time.</h1>
-        <h1>Get started with a free trial,Cancel anytime</h1>
+    <div id="platformBackground">
+        <div id="cross1"><i onclick="crossFn()" class="fa-solid fa-xmark"></i></div>
+        <div id="platformdiv">
+            <div>
+                <div>
+                    <h6>WAYS TO UPSKILL</h6>
+                    <div>
+                        <div>
+                            <div><img src="https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/dashboard.png" alt="Courseslogo"></div>
+                            <div><a href="../Courses/courses.html"><h5>Courses</h5></a></div>
+                        </div>
+                        <div>
+                            <div><img src="https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/iq.png" alt="Skillassessmentslogo"></div>
+                            <div><h5>Skill assessments</h5></div>
+                        </div>
+                        <div>
+                            <div><img src="https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/cloud.png" alt="Labslogo"></div>
+                            <div><h5>Labs</h5></div>
+                            <div id="new">NEW</div>
+                        </div>
+                        <div>
+                            <div><img src="https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/hand.png" alt="Handsonlearninglogo"></div>
+                            <div><h5>Hands-on learning</h5></div>
+                        </div>
+                        <div>
+                            <div><img src="https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/certifications.png" alt=""></div>
+                            <div><h5>Certification prep</h5></div>
+                        </div>
+                        <div>
+                            <div><img src="https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/analytics.png" alt=""></div>
+                            <div><h5>Team efficiency</h5></div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h6>SKILLS FOR</h6>
+                    <div><h5>Software development</h5></div>
+                    <div><h5>IT ops</h5></div>
+                    <div><h5>Info & cyber security</h5></div>
+                    <div><h5>Cloud computing</h5></div>
+                    <div><h5>Machine learning / AI</h5></div>
+                    <div><h5>Data professional</h5></div>
+                    <div><h5>See our entire course library</h5></div>
+                </div>
+            </div>
+            <div>
+                <h6>TOP TRENDING PATHS</h6>
+                <div>
+                    <div>
+                        <div><img src="https://pluralsight2.imgix.net/paths/images/group-policy-administration-ee0dacafe8.png?w=75" alt="Microsoftlogo"></div>
+                        <div><p>Microsoft Azure Deployment</p></div>
+                    </div>
+                    <div>
+                        <div><img src="https://pluralsight2.imgix.net/paths/images/aws-certified-devops-engineer-25d912e3da.png?w=75" alt="awslogo"></div>
+                        <div><p>AWS Operations</p></div>
+                    </div>
+                    <div>
+                        <div><img src="https://pluralsight2.imgix.net/paths/images/r-programming-eb2e267a97.png?w=75" alt="cleaningdatalogo"></div>
+                        <div><p>Cleaning Data with R</p></div>
+                    </div>
+                    <div>
+                        <div><img src="https://pluralsight2.imgix.net/paths/images/python-7be70baaac.png?w=75" alt="corepythonlogo"></div>
+                        <div><p>Core Python</p></div>
+                    </div>
+                    <div>
+                        <div><img src="https://pluralsight2.imgix.net/paths/images/ruby-7e88ddd5f0.png?w=75" alt="Rubylogo"></div>
+                        <div><p>Ruby Language Fundamentals</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="productsBackground">
+        <div id="cross2"><i onclick="crossFn()" class="fa-solid fa-xmark"></i></div>
+        <div id="productsdiv">
+            <div onclick="displayskillsfromtryforfree()">
+                <div>
+                    <div><img src="https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/Skill_logo_white.png" alt="skillslogo"></div>
+                    <div><p>Build tech skills to drive results</p></div>
+                </div>
+                <div>
+                    <div><h5>What is Skills?</h5></div>
+                    <div><h5>View plans</h5></div>
+                </div>
+            </div>
+            <div onclick="displayflowfromtryforfree()">
+                <div>
+                    <div><img src="https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/Flow_Logo_white.png" alt="flowlogo"></div>
+                    <div><p>Get insights into your workflow</p></div>
+                </div>
+                <div>
+                    <div><h5>What is Flow?</h5></div>
+                    <div><h5>View plans</h5></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="resourcesBackground">
+        <div id="cross3"><i onclick="crossFn()" class="fa-solid fa-xmark"></i></div>
+        <div id="resourcesdiv">
+            <div>
+                <div><h6>LEARN</h6></div>
+                <div><h5>Blog</h5></div>
+                <div><h5>Customer stories</h5></div>
+                <div><h5>Resource center</h5></div>
+                <div><h5>Guides</h5></div>
+                <div><h5>App download</h5></div>
+                <div><h5>Support</h5></div>
+            </div>
+            <div>
+                <div><h6>CONNECT</h6></div>
+                <div><h5>Events</h5></div>
+                <div><h5>Webinars</h5></div>
+                <div><h5>Podcast</h5></div>
+                <div><h6>PODCASTS</h6></div>
+                <div><h5>All Hands on Tech/h5></div>
+                <div><h5>Perspectives in Leadership</h5></div>
+            </div>
+        </div>
+    </div>
+    <div id="signinBackground">
+        <div id="cross"><i onclick="crossFn()" class="fa-solid fa-xmark"></i></div>
+        <div id="signindiv">
+            <div onclick="displaysigninPagefromtryforfree()">
+                <div><h6>SIGN IN WITH</h6></div>
+                <div>
+                    <div><img src="https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/Skill_logo_white.png" alt="skilllogo"></div>
+                    <div><span class="arrow1"> ></span></div>
+                </div>
+            </div>
+            <div onclick="displaysigninPagefromtryforfree()">
+                <div><h6>SIGN IN WITH</h6></div>
+                <div>
+                    <div><img src="https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/Flow_Logo_white.png" alt="flowlogo"></div>
+                    <div><span class="arrow1"> ></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="trydiv_1">
+        <div><h5>TRY PLURALSIGHT SKILLS FOR FREE</h5></div>
+        <div><h1>Build your career, one skill at a time</h1></div>
+        <div><p>Get started with a free trial. Cancel anytime.</p></div>
+    </div>
+    <div class="sliderdiv">
+        <input type="range" name="" id="slider" value="0" step="50" oninput="run(this.value)">
+        <div class="ranger">
+            <p>1</p>
+            <p>2-10</p>
+            <p>11+</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="box1" id="box1">
+            <h2 style="text-align: center;margin-bottom: 30px;">Your free 10-day individual trial includes</h2>
+            <div class="childcont">
+                <div class="sub">
+                    <div class="child">
+                        <img style="width:35px" src="https://www.pluralsight.com/content/experience-fragments/pluralsight/Pricing/pricing-free-trial/en---pricing-free-trial---control/jcr:content/root/generic_block_copy_c/parsys/generic_block/parsys/generic_block/parsys/columns_copy/column-parsys-1/column_control_copy/column-parsys-1/flex_block/parsys/flex_open_block/parsys/columns/column-parsys-1/image_text3/image/image-res.img.37cc84a4-5f17-4dc3-90f2-0c2a7153c380.png" alt="">
+                        <h3 style="margin-left:10px">Expert-led courses</h3>
+                    </div>
+                    <div class="child">
+                        <p style="font-size: 18px;">Keep up with the pace of change with thousands of expert-led, in-depth courses.</p>
+                    </div>
+                </div>
+                <div class="sub">
+                    <div class="child">
+                        <img style="width:35px" src="https://www.pluralsight.com/content/experience-fragments/pluralsight/Pricing/pricing-free-trial/en---pricing-free-trial---control/jcr:content/root/generic_block_copy_c/parsys/generic_block/parsys/generic_block/parsys/columns_copy/column-parsys-1/column_control_copy/column-parsys-1/flex_block/parsys/flex_open_block_copy/parsys/columns/column-parsys-1/image_text3/image/image-res.img.fd6b68be-a84a-48ed-bcea-21276ff717de.png" alt="">
+                        <h3 style="margin-left:10px">Pluralsight IQ</h3>
+                    </div>
+                    <div class="child">
+                        <p style="font-size: 18px;">Validate skill levels with assessments that take 10 minutes or less.</p>
+                    </div>
+                </div>
+                <div class="sub">
+                    <div class="child">
+                        <img style="width:35px" src="https://www.pluralsight.com/content/experience-fragments/pluralsight/Pricing/pricing-free-trial/en---pricing-free-trial---control/jcr:content/root/generic_block_copy_c/parsys/generic_block/parsys/generic_block/parsys/columns_copy/column-parsys-1/column_control_copy/column-parsys-1/flex_block/parsys/flex_open_block/parsys/columns/column-parsys-1/image_text3/image/image-res.img.37cc84a4-5f17-4dc3-90f2-0c2a7153c380.png" alt="">
+                        <h3 style="margin-left:10px">Expanded library</h3>
+                    </div>
+                    <div class="child">
+                        <p style="font-size: 18px;">Grow your team's proficiency with access to our full 7,000+ course library.</p>
+                    </div>
+                </div>
+                <div class="sub">
+                    <div class="child">
+                        <img style="width:35px" src="https://www.pluralsight.com/content/experience-fragments/pluralsight/Pricing/pricing-free-trial/en---pricing-free-trial---control/jcr:content/root/generic_block_copy_c/parsys/generic_block/parsys/generic_block/parsys/columns_copy/column-parsys-1/column_control_copy/column-parsys-1/flex_block/parsys/flex_open_block_copy_1940868835/parsys/columns/column-parsys-1/image_text3/image/image-res.img.211f260b-a3ba-4936-adb5-5d5cf12d7eb1.png" alt="">
+                        <h3 style="margin-left:10px">Hands-on learning</h3>
+                    </div>
+                    <div class="child">
+                        <p style="font-size: 18px;">Practice and apply knowledge faster in real-world scenarios with projects and interactive courses.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box2" id="box2">
+            <div class="childcont2">
+                <h2>With your 14-day team trial, you can</h2>
+                <ul>
+                    <li>Give up to 10 users access to our full 7,000+ course library</li>
+                    <li>Practice and apply skills with interactive courses and projects</li>
+                    <li>See skills, usage and trend data for your teams</li>
+                    <li>Prepare for certifications with industry-leading practice exams</li>
+                    <li>Measure proficiency across skills and roles</li>
+                    <li>Align learning to your goals with paths and channels</li>
+                </ul>
+            </div>
+        </div>
+        <div class="box3" id="box3">
+            <div class="childcont2">
+                <h2>With your 14-day enterprise trial, you can</h2>
+                <ul>
+                    <li>Grow your team's proficiency with access to our full 7,000+ course library</li>
+                    <li>Practice and apply skills with interactive courses and projects</li>
+                    <li>See skills, usage and trend data for your teams</li>
+                    <li>Prepare for certifications with industry-leading practice exams</li>
+                    <li>Measure proficiency across skills and roles</li>
+                    <li>Align learning to your goals with paths and channels</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="image"> 
+        </div>
+            <h4>TRY PLURALSIGHT SKILLS FOR FREE</h4>
+            <h1>Build your career, one skill at a time.</h1>
+            <h1>Get started with a free trial,Cancel anytime</h1>
 
     <div class="compare-plans">
         <div class="plans-label">
@@ -368,7 +606,7 @@
     </div>
    
     <div class="industry-standard">
-        <p class="upper">industry standard</p>
+        <p class="upper">Industry Standard</p>
         <h1 class="font">Trusted by companies big and small to scale their business</h1>
         <div class="brands">
             <img src="https://www.pluralsight.com/content/pluralsight/en/global/product/business-logos-large/jcr:content/main/generic_block/parsys/columns/column-parsys-1/flex_block/parsys/flex_open_block/parsys/image/image-res.img.f10fb368-f6ac-4bec-bf6f-f00b483374f7.png"
@@ -394,38 +632,38 @@
             <p class="text-pink uppercase">know what you're getting</p>
             <h2>A few frequently asked questions</h2>
             
-    <div class="ques-container">
-        <div class="content-container">
-            <div class="faq-header">
-              <h3>Can I cancel anytime?</h3>
-              <span class="open active">+</span>
-              <span class="close active">-</span>
-            </div>
-             <div class="content">
+            <div class="ques-container">
+                <div class="content-container">
+                <div class="faq-header">
+                    <h3>Can I cancel anytime?</h3>
+                    <span class="open active">+</span>
+                    <!-- <span class="close active">-</span> -->
+               </div>
+                <div class="content">
                 <p>
                     Yes, you can cancel your subscription at any time. Your subscription will auto-renew until you cancel, 
                     but why would you want to?
                 </p>
-             </div>
-        </div>
+                </div>
+            </div>
         <div class="content-container">
             <div class="faq-header">
               <h3>How long is my personal free trial?</h3>
               <span class="open active">+</span>
-              <span class="close active">-</span>
+              <!-- <span class="close active">-</span> -->
             </div>
-             <div class="content">
+            <div class="content">
                 <p>
                     When you sign up for a trial, you will receive 10 days or 200 minutes of viewing -- 
                     whichever comes first. If you trial is not canceled within the 10 days, the trial will convert to a paid subscription that will auto-renew until the subscription is canceled.
                 </p>
-             </div>
+            </div>
         </div>
         <div class="content-container">
             <div class="faq-header">
               <h3>Will I be charged now for a free trial?</h3>
               <span class="open active">+</span>
-              <span class="close active">-</span>
+              <!-- <span class="close active">-</span> -->
             </div>
              <div class="content">
                 <p>No, we won't charge you at this time. However, there is a $1 USD hold that is immediately released.
@@ -437,7 +675,7 @@
             <div class="faq-header">
               <h3>What are Pluralsight business plans?</h3>
               <span class="open active">+</span>
-              <span class="close active">-</span>
+              <!-- <span class="close active">-</span> -->
             </div>
              <div class="content">
                 <p>
@@ -451,7 +689,7 @@
               <h3>How does a Pluralsight subscription work?</h3>
             
               <span class="open active">+</span>
-              <span class="close active">-</span>
+              <!-- <span class="close active">-</span> -->
             </div>
              <div class="content">
                 <p>
@@ -462,7 +700,9 @@
         </div>
     </div>
     </div>
-    <script src="try.js"></script>
     
 </body>
 </html>
+<script src="try.js"></script>
+<script src="../landingTop.js"></script>
+<script src="../range/range.js"></script>

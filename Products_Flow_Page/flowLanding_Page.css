@@ -10,7 +10,6 @@ h2,p,li{
 }
 #Flow-div-1{
     background-image: url('FlowLanding_Page Images/Flow_img1.png');
-    
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; 
@@ -39,7 +38,7 @@ h2,p,li{
 }
 #fd1--1 h2{
     color:white;
-    font-size: 45px;
+    font-size: 30px;
     
     margin:0px 0px 20px;
     width:30%;
@@ -139,7 +138,7 @@ button{
 
 .Flow-div-2 >div h2{
   color:white;
-  font-size: 45px;
+  font-size: 35px;
 
   margin:0px 0px 20px;
   width:80%;
@@ -232,7 +231,6 @@ button{
   background-size: cover;
 
   
-  
   width: 100%;
 }
 #Flow-div-5>div{
@@ -247,17 +245,22 @@ button{
 }
 
 .fd5--1{
+  /* border: 1px solid red; */
   display:grid;
   grid-template-columns: repeat(3,1fr);
   gap:30px;
-  width:55%;
-  margin:50px auto 100px auto;
+  width:70%;
+  /* margin:50px auto 100px auto; */
+  margin: auto;
  
   
 }
+.fd5--1 img {
+  width: 100%;
+}
 .fd5--1 div{
-  
-   width:300px;
+  /* border: 1px solid blue; */
+   /* width:300px; */
   
    
 }
@@ -286,12 +289,16 @@ button{
   grid-template-columns: repeat(3,1fr);
   gap:10px;
  
-  width:55%;
+  width:70%;
   margin:auto;
   
 }
+
+#fd6--1 h3:hover {
+  cursor: pointer;
+}
 #fd6--1 div{
-  width:300px;
+  /* width:300px; */
   height:400px;
   
   background-color: #212121;
@@ -323,25 +330,28 @@ button{
 
 
 .fd7--1{
+  /* border: 1px solid red; */
   display:grid;
   grid-template-columns: repeat(3,1fr);
   gap:10px;
  
-  width:55%;
+  width:70%;
   margin:auto;
   
 }
 .fd7--1>div{
-  width:300px;
-  
+  /* width:300px; */
+  /* border: 1px solid blue; */
   
   background-color: #212121;
  
   box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
   
 }
+
+
 #Flow-div-7 img {
-  height:40%;
+  height:150px;
   width:100%;
   
  
@@ -375,7 +385,7 @@ button{
   margin:200px auto 200px auto;
 }
 #Flow-div-8 h2{
-  font-size: 45px;
+  font-size: 35px;
   width:50%;
 }
 #Flow-div-8 p{
@@ -388,10 +398,16 @@ button{
   justify-content: space-around;
 }
 #Flow-div-8 div label{
+  height: 50px;
   color:white;
 }
 #Flow-div-8 div input{
   width:70%;
+  font-size: 20px;
+}
+
+#platformBackground,#resourcesBackground,#productsBackground,#signinBackground {
+  top: 15vh;
 }
 
 

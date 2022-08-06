@@ -104,3 +104,54 @@ function displaysignin() {
 function displaysigninPage() {
     location.href="./signin&signuppage/signin.html";
 }
+function displayflow() {
+    location.href="./Products_Flow_Page/flowLanding_Page.html";
+}
+
+function displayskills() {
+    location.href="./Product_Skills_Lpage/Product_Skills_LPage.html";
+}
+
+function displayskillsfromflow() {
+    location.href="../Product_Skills_Lpage/Product_Skills_LPage.html"
+}
+
+function displayflowfromflow() {
+    location.href="../Products_Flow_Page/flowLanding_Page.html"
+}
+
+function displayskillsfromcourses() {
+    location.href="../Product_Skills_Lpage/Product_Skills_LPage.html"
+}
+
+function displayflowfromcourses() {
+    location.href="../Products_Flow_Page/flowLanding_Page.html"
+}
+
+function displaysigninPagefromflow() {
+    location.href="../signin&signuppage/signin.html";
+}
+
+function displayskillsfromskills() {
+    location.href="../Product_Skills_Lpage/Product_Skills_LPage.html";
+}
+
+function displayflowfromskills() {
+    location.href="../Products_Flow_Page/flowLanding_Page.html"
+}
+
+function displaysigninPagefromskills() {
+    location.href="../signin&signuppage/signin.html";
+}
+
+function displayskillsfromtryforfree() {
+    location.href="../Product_Skills_Lpage/Product_Skills_LPage.html"
+}
+
+function displayflowfromtryforfree() {
+    location.href="../Products_Flow_Page/flowLanding_Page.html";
+}
+
+function displaysigninPagefromtryforfree() {
+    location.href="../signin&signuppage/signin.html";
+}

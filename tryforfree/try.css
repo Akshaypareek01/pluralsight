@@ -3,18 +3,19 @@
     height: auto;
     color: white;
 }
- h4{
+.industry-standard h4{
     color: #EC008C;
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
- h1{
+.industry-standard h1{
     color: white;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
     background-color: black;
-    padding-top: 12%;
 }
  #individual-plans{
     display: block;
@@ -29,6 +30,7 @@ body{
     margin: 5%;
     background-color: #18181a;
     color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 } 
 .plans-label{
     position: relative;
@@ -157,7 +159,7 @@ ul{
 .text-pink{
     color: #EC008C;
 }
-h3{
+.ques-container h3{
     color: white;
 
 }
@@ -186,7 +188,18 @@ margin: 40px auto;
     font: bold;
 
 }
-
+.content {
+    color: white;
+    padding-left: 50px;
+    /* border: 1px solid red; */
+}
+.content p {
+    font-size: 15px;
+}
+/* .faq-header {
+    background-color: black;
+    border: 1px solid blue;
+} */
 .faqs-container .faq-header{
     display: flex;
     background: black;
@@ -226,4 +239,24 @@ margin: 40px auto;
 }
 .faqs-container .content.active{
     max-height: 600px;
+}
+
+
+.trydiv_1 {
+    border: 1px solid red;
+    background-image: url("");
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.trydiv_1 h5 {
+    color:#EC008C
+}
+.trydiv_1 h1 {
+    font-size: 50px;
+}
+.trydiv_1 p {
+    font-size: 20px;
+    padding: 10px 0;
 }

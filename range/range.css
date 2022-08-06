@@ -1,0 +1,99 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: black;
+} */
+.sliderdiv{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: black;
+}
+.box1{
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+}
+.box2{
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.box3{
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.box1 .childcont{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.childcont .sub{
+    width:300px;
+    height: fit-content;
+    margin:auto;
+    margin-top: 10px;
+}
+.child{
+    display: flex;;
+    align-items: center;
+    padding: 5px;
+    color: white;
+}
+ul {
+    list-style: none;
+}
+
+.childcont2 ul li:before {
+    content: '✓';
+    color: purple;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.childcont2 li{
+    font-size: 18px;
+    margin:10px 0px;
+}
+.sliderdiv #slider{
+    width: 300px;
+    height: 15px;
+}
+.ranger{
+    width: 300px;
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+    color: white;
+}
+h2{
+    color: white;
+}
+/* media query */
+@media (orientation:landscape){
+    .childcont2 ul {
+        margin-left: -90px;
+        color: white;
+    }
+}

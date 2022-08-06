@@ -2,6 +2,7 @@
 #footerBackground {
     background-color: #212121;
     padding-bottom: 30px;
+    /* border: 1px solid blue; */
 }
 body {
     margin: 0;
