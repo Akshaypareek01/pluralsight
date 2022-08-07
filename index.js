@@ -179,3 +179,19 @@ function displayviewplans() {
 function displaytryforfreefromhome() {
     location.href="./tryforfree/tryforfree.html"
 }
+
+function displaytryforfreefromcard() {
+    location.href="../tryforfree/tryforfree.html"
+}
+
+function displayskillsfromcard() {
+    location.href="../Product_Skills_Lpage/Product_Skills_LPage.html"
+}
+
+function displayflowfromcard() {
+    location.href="../Products_Flow_Page/flowLanding_Page.html"
+}
+
+function displaysigninPagefromcard() {
+    location.href="../signin&signuppage/signin.html"
+}

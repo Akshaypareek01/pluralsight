@@ -116,7 +116,7 @@ function cancelPayment() {
 
 function paymentsuccess() {
     alert("Congratulations payment successfull");
-    location.href="../landingTop.html"
+    location.href="../index.html"
 }
 
 

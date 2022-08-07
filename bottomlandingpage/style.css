@@ -137,11 +137,13 @@ color: white;
     width: 80%;    
 }
 #parent3{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     
 }
 #parent3 div{
-    height: 500px;
+    /* height: 500px; */
+    min-height: fit-content;
     margin-bottom: 0px;
 }
 #parent3 div:first-child{
@@ -275,7 +277,7 @@ color: white;
 
 #parent5 {
     background-color: aqua;
-    height: 550px;
+    /* height: 550px; */
     width: 100%;
     background-image: url(./images/african-girls-original.jpeg);
     background-repeat: no-repeat;
@@ -292,7 +294,7 @@ color: white;
     margin-top: -20px;
 }
 #parent5 div p{
-    width: 45%;
+    /* width: 45%; */
     color: white;
 }
 #parent5 div button{
@@ -338,4 +340,64 @@ color: white;
     color: white;
     font-weight: bold;
     border: none;
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 1024px) {
+    #child1{
+    grid-template-columns: repeat(1,1fr);
+   }
+   #child2{
+    grid-template-columns: repeat(1,1fr);
+    }
+    #parent3{
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    #parent3 > div:first-child {
+        width: 100%;
+        margin: auto;
+    }
+    #parent3 div:last-child p{
+        margin-left: 30px;
+        font-size: 15px;
+        letter-spacing: 1px;
+    
+    }
+    #parent3 div:last-child h1{
+        width: 90%;
+        margin-left: 30px;
+    }
+    
+}
+
+@media only screen and (min-width: 0px) and (max-width: 639px) {
+    #child4{
+        grid-template-columns: repeat(1,1fr);
+    }
+    #child6{
+        grid-template-columns: repeat(1,1fr);
+    }
+    #sub-child1{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+}
+
+
+
+@media only screen and (min-width: 640px) and (max-width: 1024px) {
+    #child4{
+        grid-template-columns: repeat(2,1fr);
+    }
+    #sub-child1{
+        grid-template-columns: repeat(2,1fr);
+        
+    }
 }

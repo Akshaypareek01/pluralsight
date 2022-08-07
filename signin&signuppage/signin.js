@@ -20,7 +20,7 @@ function addcrd(){
     }
     else if(ans) {
         alert("Login Successful");
-        location.href="../landingTop.html"
+        location.href="../index.html"
     }else {
         alert("You have written incorrect email or password");
     }

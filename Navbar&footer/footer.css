@@ -52,7 +52,8 @@ body {
 
 
 #lastPart {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
     /* border: 1px solid red; */
     color: white;
     padding-top: 20px;
@@ -100,3 +101,37 @@ body {
 
 
 
+
+
+
+@media only screen and (min-width: 421px) and (max-width: 720px) {
+    #footer{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 720px) {
+    #footer {
+        grid-template-columns: repeat(2,1fr);
+        padding: 50px 0;
+    }
+    #footer>div>h5{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #footer + div + div {
+        margin: 20px 0;
+        width:50%;
+        font-size: 12px;
+    }
+    #lastPart {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 460px) {
+    #lastPart {
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+    }
+}
