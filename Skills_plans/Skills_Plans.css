@@ -1,0 +1,157 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#sk-div1{
+    background-color:#242424;
+}
+#Skills_p1{
+  
+    width:60%;
+    margin:auto;
+}
+#Skills_plans{
+  
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  
+  margin:auto;
+ 
+}
+#Skills_p1>h2{
+    text-align: center;
+    margin-bottom:80px;
+    font-size: 34px;
+    
+}
+h2,h3,p{
+    color:white;
+}
+#Skills_plans>div{
+    margin:auto;
+}
+#Skills_plans>div h3{
+    font-size:22px;
+}
+#Skills_plans>div p{
+    width:80%;
+}
+
+/* gift */
+#gift{
+    background-image:url('https://www.pluralsight.com/content/experience-fragments/pluralsight/Pricing/pricing-skills/en-pricing-skills-standard-and-starter/jcr:content/root/generic_block/parsys/generic_block_copy/image-res.img.33f64d91-64f5-47be-92b9-78378c10db94.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+    padding:10px;
+   
+}
+#gift div{
+    text-align: center;
+   
+    width:60%;
+    margin: 70px auto;
+}
+#gift div h2{
+    margin:30px auto 30px auto;
+    font-weight: bold;
+    font-size: 37px;
+}
+#gift div p{
+    color:gray;
+    font-size:17px;
+    margin-top:20px;
+    margin-bottom: 60px;
+}
+#gift a{
+    text-decoration: none;
+    font-weight: bold;
+    color:white;
+}
+
+#btn-1{
+    background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+    border: 0;
+    
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    
+    font-size: 16px;
+    
+    font-weight: bold;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 5px 70px;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    margin-bottom: 30px;
+  }
+  
+  
+  #btn-1:hover {
+      background-position: right center;
+      background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+      /* change the direction of the change here */
+      color: #fff;
+      text-decoration: none;
+  }
+  #btn-1:active {
+      transform: scale(0.95);
+    }
+
+    #gift-part{
+        background-color:black;
+       
+        text-align: center;
+      
+     
+    }
+    #gift-part-div1{
+        padding:100px;
+    }
+   
+    .gift-p2{
+        margin:100px auto 20px auto;
+        font-size:17px;
+        font-weight: bold;
+    }
+    .highlight{
+        color:#EC008C;
+    }
+    #hii-ak{
+        width:80%;
+        height:200px;
+        margin:auto;
+    }
+    .carousel-item {
+        width:50%;
+        margin:auto;
+    }
+    #gp-div1{
+       width:90%;
+       margin:10px auto 20px auto;
+
+    }
+    .gp-inner-1{
+        width:100%;
+        margin:auto;
+    }
+    .carousel-control-prev-icon{
+        color:black
+    }
+    #gift-div-3{
+        display:grid;
+        grid-template-columns: repeat(5,1fr);
+        
+        width:60%;
+       margin:auto;
+        padding:60px;
+    }
+    #gift-div-3 img{
+         height:30px;
+    }
