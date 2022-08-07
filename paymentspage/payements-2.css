@@ -12,7 +12,10 @@ body{
 }
 #child-payment6{
    width: 40%;
-    margin: auto;
+   margin: auto;
+}
+#child-payment6 a {
+    color:rgb(0, 132, 189)
 }
 #child-payment7 h1{
     margin: auto;
@@ -87,20 +90,25 @@ body{
     padding: 5px;
     justify-content: space-between;
     margin: 10px;
+    display: none;
 }
 #child-payment4 form{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    row-gap: 10px;
+    gap: 10px;
     justify-content: space-between;
-    width: 90%;
+    /* width: 90%; */
     padding: 10px;
     color: rgb(183, 183, 183);
 }
 #child-payment4 form input{
     background-color: rgb(54, 54, 54);
     border: none;
-    padding: 9px 45px;
+    padding-left: 10px;
+    height: 35px;
+    width: 90%;
+    outline: none;
+    color: white;
     border-radius: 3px;
     margin-top: 5px;
 }
@@ -137,6 +145,9 @@ body{
     margin: 10px;
     line-height: 20px;
 }
+#child-payment5 >div:last-child {
+    display: none;
+}
 #child-payment5 img{
  width: 100px;
 }
@@ -161,9 +172,51 @@ body{
  line-height: 20px;
 }
 
-
-
-
+#paymentsuccesfull {
+    /* border: 1px solid red; */
+    background-color: azure;
+    /* height: 200px; */
+    width: 400px;
+    margin: auto;
+    display: none;
+}
+#h2p {
+    padding-top: 20px;
+    text-align: center;
+}
+#divp {
+    /* border: 1px solid red; */
+    text-align: center;
+    padding:  0 20px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#h2p + div {
+    /* border: 1px solid blue; */
+    gap: 20px;
+    display: flex;
+    padding: 20px 30px 20px 30px;
+    justify-content: space-between;
+}
+#h2p + div > div:last-child {
+    border-left: 1px solid black;
+    padding-left: 30px;
+    
+}
+#divp > div {
+    /* border: 1px solid green; */
+}
+#divp > div button {
+    background-color:rgb(0, 132, 189);
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 3px;
+    color: white;
+}
+#divp > div button:hover {
+    cursor: pointer;
+}
 
 
 
