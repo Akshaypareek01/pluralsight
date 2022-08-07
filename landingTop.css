@@ -448,3 +448,7 @@ button {
 .logo {
     width: 100px;
 }
+
+#sub-child1 a {
+    color: white;
+}

@@ -1,11 +1,13 @@
 body{
+    /* background-color: black; */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #sk-div1{
-    background-color:#242424;
+    padding: 60px;
+    background-color: black;
 }
 #Skills_p1{
-  
+
     width:60%;
     margin:auto;
 }
@@ -22,9 +24,6 @@ body{
     margin-bottom:80px;
     font-size: 34px;
     
-}
-h2,h3,p{
-    color:white;
 }
 #Skills_plans>div{
     margin:auto;
@@ -123,6 +122,9 @@ h2,h3,p{
     .highlight{
         color:#EC008C;
     }
+    .highlight:hover {
+        cursor: pointer;
+    }
     #hii-ak{
         width:80%;
         height:200px;
@@ -154,4 +156,8 @@ h2,h3,p{
     }
     #gift-div-3 img{
          height:30px;
+    }
+
+    #footer p {
+        margin: auto;
     }

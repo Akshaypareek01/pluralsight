@@ -6,24 +6,31 @@ body{
     margin: 0px;
 }
 #parent{
-    width:82%;
+    width:90%;
     margin: auto;
     margin-top: 100px;
 }
-#parent h4
-{
+#parent h4 {
 color: rgb(288, 0, 132);
 font-weight: bold;
 }
 #parent h1{
     color: white;  
 }
+#child1 h1{
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+#child1 p{
+    padding-bottom: 30px;
+}
 #child1
 {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     row-gap: 50px;
-    width: 82%;
+    padding: 30px;
+    width: 90%;
     margin: auto;
 }
 #child1 div{
@@ -32,13 +39,14 @@ font-weight: bold;
 }
 #child1 div .img1{
     width: 100%;
+    height: 100%;
     
 }
 #child2{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 30px;
-    width: 79%;
+    width: 90%;
     margin: auto;
     margin-top: 50px;
 
@@ -48,15 +56,18 @@ height: 400px;
 border-radius: 15px;
 box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 background-color: rgb(34, 34,34);
-padding: 35px 0px 35px 25px ;
+padding: 35px 20px 20px 20px;
 color: white;
 
 }
 #child2 div > h1{
-    width: 98%;  
+    /* width: 98%;   */
+    font-size: 25px;
+    padding-bottom: 30px;
 }
 #child2 div > p{
-    width: 95%;  
+    /* width: 95%;   */
+    padding-bottom: 30px;
 }
 #child2 div > a{
     font-weight: bold;
@@ -87,25 +98,27 @@ color: white;
     background-color: black;
     margin-top: 100px;
 }
-
+#child3 {
+    padding-left: 6%;
+}
 #child3 h4{
     color: rgb(288, 0, 132);
     font-weight: bold;
-    width: 85%;
+    /* width: 85%; */
     margin: auto;  
     padding: 80px 0px 20px 0px;
 }
 #child3 h1{
     color: white;
-    width: 85%;
+    /* width: 85%; */
+    padding-bottom: 30px;
     margin: auto;
-    padding: 0px 0px 30px 0px;
 }
 #child4{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 15px;
-    width: 85%;
+    width: 90%;
     margin: auto;
     padding-bottom:80px;
 
@@ -116,7 +129,8 @@ color: white;
 }
 #child4 div > h4{
     color: rgb(212, 155, 12);
-    width: 100%;
+    /* width: 100%; */
+    padding: 20px 0;
 }
 #child4 div > p{
     color:white;
@@ -182,6 +196,9 @@ color: white;
     color: #ec028a;
     text-align: center;
     padding-top: 80px;
+}
+#child5 > h4:hover {
+    cursor: pointer;
 }
 #child5 > h1{
     color: white;
@@ -286,6 +303,7 @@ color: white;
     cursor: pointer;
     margin-top: 15px;
     border: 1px solid white;
+    box-sizing: border-box;
 }
 #parent5 div img{
     margin-left: -50px;

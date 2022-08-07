@@ -171,3 +171,11 @@ function displaytryforfreefromskills() {
 function displaytryforfreefromflow() {
     location.href="../tryforfree/tryforfree.html"
 }
+
+function displayviewplans() {
+    location.href="./Skills_Plans/Skills_Plans.html"
+}
+
+function displaytryforfreefromhome() {
+    location.href="./tryforfree/tryforfree.html"
+}

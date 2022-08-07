@@ -3,20 +3,23 @@ body{
     background-color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-h1,h2,h3,h4,p,span{
+#sk-div1 h1,h2,h3,h4,p,span{
     color:white;
 }
 #plans-div-1{
+  background-color: black;
   padding-top: 60px;
     text-align: center;
    
 }
 #plans-div-1>h2{
+  padding-bottom: 20px;
     font-size:40px;
 }
 .Plans_pricing {
     width:70%;
-   margin:30px auto;
+    margin: auto;
+    /* padding-bottom: 30px; */
     display:grid;
     grid-template-columns: repeat(2,1fr);
     
@@ -42,6 +45,7 @@ h1,h2,h3,h4,p,span{
 }
 #plans1-2 h2{
     margin-top: 110px;
+    /* padding-bottom: 20px; */
 }
 .Plans_pricing div{
     
@@ -53,6 +57,7 @@ h1,h2,h3,h4,p,span{
 }
 .price{
     margin-bottom: 0px;
+    color: white;
     font-weight:bolder;
 }
 .Plans_pricing h2{

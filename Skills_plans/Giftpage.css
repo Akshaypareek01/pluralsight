@@ -17,7 +17,10 @@ h1,h2,h3,p,h6{
 }
 #giftpart-div-0 span{
     color:#EF4765;
- text-decoration: underline;
+    text-decoration: underline;
+}
+#giftpart-div-0 span:hover{
+    cursor: pointer;
 }
 #giftpart-div-0 h1{
     margin:50px;
@@ -136,7 +139,7 @@ h1,h2,h3,p,h6{
     background-color: #242424;
     
     grid-template-columns: repeat(3,1fr);
-   
+    padding-left: 2%;
     margin:auto;
     
    
@@ -159,11 +162,13 @@ h1,h2,h3,p,h6{
     text-align:center;
     background-color: #242424;
     
-  
 }
 #giftpart-div-5 div{
    padding: 100px;
 }
 #giftpart-div-5 span{
     color:#EF4765
+}
+#giftpart-div-5 p:hover {
+    cursor: pointer;
 }

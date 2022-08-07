@@ -27,14 +27,15 @@ body{
 .compare-plans{
     display: flex;
     flex-direction: column;
-    margin: 5%;
-    background-color: #18181a;
+    padding: 20px;
+    background-color: black;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 } 
 .plans-label{
     position: relative;
-    padding-top: 20px;
+    margin-top: 30px;
+    padding-top: 30px;
     font-weight: 600;
 } 
 .plans-label .ind {
@@ -264,4 +265,7 @@ margin: 40px auto;
 .trydiv_1 p {
     font-size: 20px;
     padding: 10px 0;
+}
+.compare-plans ul {
+    padding: initial;
 }
