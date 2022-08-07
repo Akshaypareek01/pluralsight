@@ -1,3 +1,6 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 body{
     background-color: rgb(24, 24,24);
     margin: 0px;
@@ -50,10 +53,10 @@ color: white;
 
 }
 #child2 div > h1{
-    width: 90%;  
+    width: 98%;  
 }
 #child2 div > p{
-    width: 83%;  
+    width: 95%;  
 }
 #child2 div > a{
     font-weight: bold;
@@ -263,15 +266,16 @@ color: white;
     
 }
 #parent5 div{
-    padding: 45px 100px; 
+    padding: 5px 100px; 
 }
 #parent5 div h1{
-    width: 27%;
+    width: 30%;
     font-size: 35px;
     color: white;
+    margin-top: -20px;
 }
 #parent5 div p{
-    width: 40%;
+    width: 45%;
     color: white;
 }
 #parent5 div button{
@@ -285,6 +289,7 @@ color: white;
 }
 #parent5 div img{
     margin-left: -50px;
+    margin-top: 30px;
 }
 #parent5 div button:hover{
     border: 2px solid white;
@@ -314,4 +319,5 @@ color: white;
     background: linear-gradient(120deg,#ec028a,#f15924);
     color: white;
     font-weight: bold;
+    border: none;
 }
