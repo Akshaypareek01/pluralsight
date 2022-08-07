@@ -1,0 +1,169 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:0px;
+}
+
+h1,h2,h3,p,h6{
+    color:white;
+}
+
+#giftpart-div-1{
+    background-color: black;
+   
+}
+#giftpart-div-0{
+    text-align: center;
+    padding:50px;
+}
+#giftpart-div-0 span{
+    color:#EF4765;
+ text-decoration: underline;
+}
+#giftpart-div-0 h1{
+    margin:50px;
+    font-size: 60px;
+}
+.p1{
+    font-size:15px;
+}
+.p2{
+    font-size: 19px;
+}
+
+
+#giftpart-div-2{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    width:70%;
+    margin:auto;
+  
+}
+#giftpart-div-2 img{
+    height:40px;
+    margin-left: 15px;
+}
+.d2-p1{
+    font-size:20px;
+    font-weight: bold;
+    margin-top:10px;
+    margin-left: 10px;
+}
+.d2-p2{
+ font-size:17px;
+ color:#DDDDDD;
+ margin-bottom:30px;
+ margin-left:20px;
+}
+.giftdiv2-d1{
+    display:flex;
+    margin-top:20px;
+}
+
+
+
+#giftpart-div-3{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+ 
+    width:70%;
+    margin: 20px auto 60px auto;
+}
+
+#giftpart-div-3>div{
+ background-color:#242424;
+ text-align: center;
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ margin-bottom: 90px;
+
+}
+#giftpart-div-3>div h3{
+    font-size: 17px;
+    margin:30px auto;
+}
+.div3-p1{
+    margin-top:20px;
+    font-size:17px;
+}
+#spna-1{
+    font-size:50px;
+}
+#giftpart-div-3>div p{
+    font-size:22px;
+}
+#btn-1{
+    background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+    border: 0;
+    
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    
+    font-size: 16px;
+    
+    font-weight: bold;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 5px 70px;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    margin-bottom: 30px;
+  }
+  
+  
+  #btn-1:hover {
+      background-position: right center;
+      background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+      /* change the direction of the change here */
+      color: #fff;
+      text-decoration: none;
+  }
+  #btn-1:active {
+      transform: scale(0.95);
+    }
+
+
+
+
+#giftpart-div-4{
+    display:grid;
+   
+    background-color: #242424;
+    
+    grid-template-columns: repeat(3,1fr);
+   
+    margin:auto;
+    
+   
+}
+#giftpart-div-4 div h2{
+    font-size: 34px;
+    font-weight: bold;
+    margin-top:100px;
+}
+#giftpart-div-4 div p{
+    width:60%;
+}
+#giftpart-div-4 div img{
+
+ height:300px;
+}
+
+
+#giftpart-div-5{
+    text-align:center;
+    background-color: #242424;
+    
+  
+}
+#giftpart-div-5 div{
+   padding: 100px;
+}
+#giftpart-div-5 span{
+    color:#EF4765
+}
