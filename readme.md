@@ -83,9 +83,14 @@ We have deployed the application on netlify and the link is below
   
   ### Anu Priya
   - [![twitter](https://img.shields.io/badge/GitHub-1DA1F2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Anupriya408)
+  - [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anu-priya-54a999217/)
   
  ### Vaddadi Phani
   - [![twitter](https://img.shields.io/badge/GitHub-1DA1F2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vaddadiPhani)
+
+
+
+
  
 
 
