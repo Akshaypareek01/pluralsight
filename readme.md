@@ -90,6 +90,11 @@ We have deployed the application on netlify and the link is below
   - [![portfolio](https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vphanibharath43@gmail.com)
   - [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/phani-vaddadi-100a03200)
   - [![twitter](https://img.shields.io/badge/GitHub-1DA1F2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vaddadiPhani)
+  
+   ### Sanchit jain
+  - [![portfolio](https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sanchitjain99@outlook.com)
+  - [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sanchit-jain-1279b0191/)
+  - [![twitter](https://img.shields.io/badge/GitHub-1DA1F2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Agramom)
 
 
 
